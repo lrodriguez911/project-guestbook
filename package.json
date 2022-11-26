@@ -1,0 +1,32 @@
+{
+  "name": "project-guestbook",
+  "version": "1.0.0",
+  "description": "a guestbook where can create, read, delete and update data",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "node test\u001b[2~\u001b[2~\u001b[2~\u001b[2~\u001b[2~\u001b[2~\u001b[2~\u001b["
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lrodriguez911/project-guestbook.git"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "CRUD"
+  ],
+  "author": "Lucas M Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lrodriguez911/project-guestbook/issues"
+  },
+  "homepage": "https://github.com/lrodriguez911/project-guestbook#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  }
+}
