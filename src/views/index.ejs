@@ -1,0 +1,27 @@
+<%- include('partials/header')%>
+
+<%if (entries.length){%>
+
+    <div class="col-md-4 offset-md-4">
+        <%  entries.map(e => { %>
+            <div class="card my-2">
+                <div class="card-header">
+                    <p><%= e.published%></p>
+                </div>
+                <div class="card-body">
+                    <h1><%= e.title%></h1>
+                    <p><%= e.body%></p>
+                    
+                </div>
+            </div>
+    <% })%>
+    </div>
+  
+<%  } else {%>
+    <p class="m-2"> No entries!. <a href="/new-entry" target="_blank" >Do you want add one?</a></p>
+<%  } %>
+
+<%if (entries.length){}%>
+
+
+<%- include('partials/footer')%>
